@@ -1,0 +1,47 @@
+.imgh{
+    float: left;
+    width: 556px;
+    height: 390px;
+    background-color: red;
+    display: block;
+    border-radius: 10px;
+
+}
+.nameFont{
+    font-size: 25px;
+}
+.desc{
+   float: right;
+    width: 700px;
+    height: 390px;
+    /* background-color: green; */
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 21px;
+    /* right: 20px; */
+}
+
+.botContainer{
+    margin-left: calc(-2rem);
+    padding: 20px;
+    width: 100vw;
+    height: 450px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.buttonRead{
+    width: 200px;
+    height: 40px;
+    font-size: 21px;
+    background-color: rgb(2, 56, 2);
+    color: white ;
+    border: 0 solid;
+    /* font-size: larger; */
+}
+
+.buttonRead:hover{
+    background-color: green;
+}
