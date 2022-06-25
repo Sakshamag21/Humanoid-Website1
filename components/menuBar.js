@@ -10,7 +10,7 @@ function MenuBar() {
         <div className={styles.navigation}>
             <input type="checkbox" className={styles.navigation__checkbox} id="navi-toggle"></input>
 
-             <label htmlfor="navi-toggle" className={styles.navigation__button}>
+             <label htmlFor="navi-toggle" className={styles.navigation__button}>
                 <span className={styles.navigation__icon}>&nbsp;</span>
             </label> 
             
