@@ -1,24 +1,24 @@
 import { Fragment } from "react"
 import styles from "./membersCard.module.css"
-import tr from "../data.json";
+import tr4 from "../data.json";
 // import Image from "next/image";
 
-export default function MembersCard(){
+function MembersCard(){
     
     
     return(
         
-        tr.map(record=>{
+        tr4.map(record4=>{
 
     
     return(
         
             <div className={styles.member}>
-                <img className={styles.imgh1} src={record.imgh}></img>
-                <p>{record.name}</p>
-                <p>{record.position}</p>
-                <p>{record.email}</p>
-                <p>{record.mobile}</p>
+                <img className={styles.imgh1} src={record4.imgh}></img>
+                <p>{record4.name}</p>
+                <p>{record4.position}</p>
+                <p>{record4.email}</p>
+                <p>{record4.mobile}</p>
             </div>
             
         
@@ -26,3 +26,5 @@ export default function MembersCard(){
    })
    
 )}
+
+export default MembersCard;
