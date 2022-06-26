@@ -6,8 +6,8 @@ return(tr3.map(record3=>{
     return(
         <div className={styles.containerImage}>
             <img className={styles.iconSoftware} src={record3.image}></img>
-            <div className={styles.nameIconBack}></div>
-            <div className={styles.nameIcon}>{record3.name}</div>
+            <div className={styles.nameIconBack}> <div className={styles.nameIcon}>{record3.name}</div></div>
+            {/* <div className={styles.nameIcon}>{record3.name}</div> */}
         </div>
     )}))}
 

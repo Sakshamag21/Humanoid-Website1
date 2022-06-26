@@ -73,6 +73,7 @@
   max-width: 800px;
 }
 
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -103,6 +104,15 @@
   line-height: 1.5;
 }
 
+.centerCard{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  /* 'margin: auto; */
+  width: auto;
+  height: fit-content;
+  
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -113,4 +123,15 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.inlineCard{
+  width: 95vw;
+  height: 400px;
+  margin-left: calc(-2rem + 1vw);
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }

@@ -5,6 +5,7 @@
     background-color: red;
     display: block;
     border-radius: 10px;
+    
 
 }
 .nameFont{
@@ -23,9 +24,22 @@
     /* right: 20px; */
 }
 
+@media  screen and (max-width:730px) {
+    .imgh{
+        width: 95vw;
+        height: 53vw;
+        margin-left: -2vw;
+    }
+    .desc{
+        width: 90vw;
+        height: 53vw;
+    }
+    
+}
 .botContainer{
     margin-left: calc(-2rem);
     padding: 20px;
+    z-index: -1;
     width: 100vw;
     height: 450px;
     background-color: black;
@@ -45,3 +59,29 @@
 .buttonRead:hover{
     background-color: green;
 }
+
+@media screen and (max-width:1300px) and (min-width:1170px) {
+    .imgh{
+        width: 42vw;
+        height: 30vw;
+    }
+    .desc{
+        width: 53vw;
+        font-size: 1.6vw;
+    }
+    .nameFont{
+        font-size: 1.9vw;
+    }
+    .buttonRead{
+        font-size: 1.6vw;
+        width: 15vw;
+        height: 3vw;
+    }
+}
+
+
+@media screen and (max-width:1170px) {
+    .botContainer{
+        height: 850px;
+    }
+} 
