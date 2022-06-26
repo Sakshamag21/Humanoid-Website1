@@ -1,7 +1,7 @@
 // import { Fragment } from "react";
 import styles from "./software.module.css";
 import tr3 from "../data2.json";
-export default function SoftwareCard(){
+function SoftwareCard(){
 return(tr3.map(record3=>{
     return(
         <div className={styles.containerImage}>
@@ -11,3 +11,4 @@ return(tr3.map(record3=>{
         </div>
     )}))}
 
+export default SoftwareCard;
