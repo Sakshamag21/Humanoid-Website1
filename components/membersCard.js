@@ -13,7 +13,7 @@ function MembersCard(){
     
     return(
         
-            <div className={styles.member}>
+            <div className={styles.member} key={record4.id}>
                 <img className={styles.imgh1} src={record4.imgh}></img>
                 <p>{record4.name}</p>
                 <p>{record4.position}</p>
