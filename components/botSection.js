@@ -1,6 +1,6 @@
 import styles from "./botSection.module.css"
 import tr1 from "../data1.json"
-export default function BotSection(){
+function BotSection(){
 return(
     tr1.map(record1=>{
     return(<div className={styles.botContainer}>
@@ -12,3 +12,5 @@ return(
         </div>
     </div>)
 }))}
+
+export default BotSection;
