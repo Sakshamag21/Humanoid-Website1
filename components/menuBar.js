@@ -31,7 +31,10 @@ function MenuBar() {
                     </ul>
             </nav>
         </div>
+        {/* <div className={styles.logo}></div> */}
         <div className={styles.menu} >
+            <div className={styles.logo}></div>
+
             <button className={styles.menubutton}>Contact</button>
             <button className={styles.menubutton}>Bot description</button>
             <button className={styles.menubutton}>Members</button>

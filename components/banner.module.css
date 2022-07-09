@@ -54,7 +54,14 @@
      margin: auto;
     text-align: center; 
 }
-
+@keyframes nameCome {
+    0%{
+        margin-left: -50vw;
+    }
+    100%{
+        margin-left: 1vw;
+    }
+}
 .content{
     position: absolute;
     top: 34vh;
@@ -65,8 +72,12 @@
     /* margin-left: 130px; */
     width: fit-content;
     text-align: center;
+    animation: nameCome 7s ;
     
 }
+
+
+
 .name{
     
     margin: 1vw;
@@ -76,7 +87,9 @@
     font-weight: 600;
     padding: 20px;
     font-size: 60px;
+    animation: nameCome 13s ;
 }
+
 
 @media screen and (max-width:551px)  {
     .name{
