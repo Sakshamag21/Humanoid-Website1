@@ -5,6 +5,7 @@ import Banner from "../components/banner";
 import MembersCard from "../components/membersCard";
 import BotSection from "../components/botSection";
 import SoftwareCard from "../components/software";
+import Header from "../components/Header";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -25,9 +26,10 @@ export default function Home() {
       
       <BotSection></BotSection>
       <div className={styles.inlineCard}><SoftwareCard></SoftwareCard></div>
-      
+      <Header></Header>
      
       
     </div>
+
   );
 }

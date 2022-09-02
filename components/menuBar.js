@@ -35,7 +35,7 @@ function MenuBar() {
         <div className={styles.menu} >
             <div className={styles.logo}></div>
 
-            <button className={styles.menubutton}>Contact</button>
+            <button className={styles.menubutton} ><a href=" https://sakshamag21.github.io/MyFirstWebSa/">Contact</a></button>
             <button className={styles.menubutton}>Bot description</button>
             <button className={styles.menubutton}>Members</button>
             <button className={styles.menubutton}>Members</button>
