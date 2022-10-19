@@ -1,0 +1,36 @@
+.membersBox{
+    width: 100vw;
+    padding: 80px 40px;
+    display: flex;
+    position: relative;
+    z-index: -10;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width:925px) {
+    .title{
+        font-size: 30px;
+    }
+}
+
+.title{
+    z-index: -1;
+    width: 50vw;
+    top: 80px;
+    margin: 0 25vw;
+    position: relative;
+    display: flex;
+    font-size: 60px;
+    border-bottom: 1px grey solid;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:925px) {
+    .title{
+        font-size: 30px;
+    }
+}
+.back{
+    background-color: aqua;
+}

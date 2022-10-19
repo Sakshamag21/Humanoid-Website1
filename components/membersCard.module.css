@@ -1,0 +1,22 @@
+.member{
+    display: inline-block;
+    width: 220px;
+    height: 540px;
+    font-size: 20px;
+    /* background-color: grey; */
+    color: grey;
+    text-align: center;
+    margin: 10px;
+   
+}
+.tttr{
+    font-size: xx-small;
+}
+
+.imgh1{
+    width: 216px;
+    height: 300px;
+    object-fit: cover;
+    z-index: 1000;
+    border-radius: 10px;
+}
