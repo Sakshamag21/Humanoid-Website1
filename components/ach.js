@@ -15,7 +15,7 @@ const Ach=()=>{
     })
     useEffect(()=>{
         
-        if (prNum===10) return;
+        if (prNum===5) return;
         const timer= setTimeout(()=>{
             setprNum(prNum+1)
         },1000);
@@ -29,7 +29,7 @@ const Ach=()=>{
         <div className={styles.number}>{achNum}</div>
         </div>
         <div className={styles.boxc}>
-        <div className={styles.achive}>Achivement</div>
+        <div className={styles.achive}>Projects</div>
         <div className={styles.number}>{prNum}</div>
         </div>
 

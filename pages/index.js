@@ -20,7 +20,7 @@ export default function Home() {
       <main className={styles.main}>
       <MenuBar></MenuBar>
       <Banner></Banner>
-      <ContactPage></ContactPage>
+      <ContactPage></ContactPage><div id="section2"></div>
       
       
         

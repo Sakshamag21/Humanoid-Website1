@@ -23,24 +23,24 @@ function ContactPage(){
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div className={styles.appContact}>CONTACT INFO : +62 81 314 928 595</div>
+          <div className={styles.appContact}>Address:-Robo Room,<br></br>Hall 12,IIT Kanpur</div>
         </div>
         <div className={styles.screenBodyItem}>
           <div className={styles.appForm}>
             <div className={styles.appFormGroup}>
-              <input className={styles.appFormControl} placeholder="NAME" value="Krisantus Wanandi"></input>
+              <input className={styles.appFormControl} placeholder="NAME" type="text" id="name" required></input>
             </div>
             <div className={styles.appFormGroup}>
-              <input className={styles.appFormControl} placeholder="EMAIL"></input>
+              <input className={styles.appFormControl} placeholder="EMAIL" type="mail" id="mail" required></input>
             </div>
             <div className={styles.appFormGroup}>
-              <input className={styles.appFormControl} placeholder="CONTACT NO"></input>
+              <input className={styles.appFormControl} placeholder="CONTACT NO" type="number"></input>
             </div>
             <div className={styles.appFormGroup+" "+styles.message}>
-              <input className={styles.appFormControl} placeholder="MESSAGE"></input>
+              <input className={styles.appFormControl} placeholder="MESSAGE" type="text"></input>
             </div>
             <div className={styles.appFormGroup+" "+styles.buttons}>
-              <button className={styles.appFormButton}>CANCEL</button>
+              
               <button className={styles.appFormButton}>SEND</button>
             </div>
           </div>

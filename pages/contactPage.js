@@ -2,7 +2,7 @@ import styles from "./contactPage.module.css";
 
 function ContactPage(){
     return(<>
-    <div className={styles.background}>
+    <div className={styles.background} >
   <div className={styles.container}>
     <div className={styles.screen}>
       <div className={styles.screenHeader}>
@@ -25,7 +25,7 @@ function ContactPage(){
           </div>
           <div className={styles.appContact}>CONTACT INFO : +62 81 314 928 595</div>
         </div>
-        <div className={styles.screenBodyItem}>
+        <div className={styles.screenBodyItem} >
           <div className={styles.appForm}>
             <div className={styles.appFormGroup}>
               <input className={styles.appFormControl} placeholder="NAME" value="Krisantus Wanandi"></input>

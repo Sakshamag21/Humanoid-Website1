@@ -1,12 +1,26 @@
+@keyframes anitry {
+    0%{
+        margin-top: 100px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 20px;
+        opacity: 1;
+
+    }
+}
+
 .member{
+    animation: anitry 5s;
+    
     display: inline-block;
-    width: 220px;
-    height: 540px;
-    font-size: 20px;
+    width: 160px;
+    height: 440px;
+    font-size: 14px;
     /* background-color: grey; */
     color: grey;
     text-align: center;
-    margin: 10px;
+    margin: 20px 50px;
    
 }
 .tttr{
@@ -14,8 +28,8 @@
 }
 
 .imgh1{
-    width: 216px;
-    height: 300px;
+    width: 156px;
+    height: 220px;
     object-fit: cover;
     z-index: 1000;
     border-radius: 10px;

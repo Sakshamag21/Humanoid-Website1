@@ -14,10 +14,29 @@
     font-weight: 700;
     letter-spacing: 1.4px;
   } */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
   
   .background {
     display: flex;
     min-height: 100vh;
+    min-width: 100vw;
+    top: 100vh;
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    /* background-image:url("../img/b7.jpg") ;
+    background-size: cover; */
   }
   
   .container {
@@ -30,9 +49,12 @@
   .screen {
     position: relative;
     background: #3e3e3e;
+    /* background-color: white; */
     border-radius: 15px;
-    top: 100vh;
-    margin-top: -24vh;
+  
+    width: 80vw;
+    /* top: 100vh;
+    margin-top: -24vh; */
   }
   
   .screen:after {
@@ -129,7 +151,7 @@
   
   .appContact {
     margin-top: auto;
-    font-size: 8px;
+    font-size: 20px;
     color: #888;
   }
   
@@ -172,6 +194,7 @@
     border: none;
     color: #ea1d6f;
     font-size: 14px;
+    margin-left: 20px;
     cursor: pointer;
     outline: none;
   }

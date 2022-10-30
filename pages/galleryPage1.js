@@ -25,7 +25,31 @@ function GalleryPage1(){
 
 		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
 			
-				<img src="./Screenshot10.png" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<img src="./p1.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p2.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p3.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p4.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p5.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
 				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
 			
 		</a>
@@ -52,6 +76,25 @@ function GalleryPage1(){
 				<figcaption className={styles.galleryCaption}>Portrait by Sam Burriss</figcaption>
 			
 		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p6.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p7.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p8.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+
 	</div>
 	
 	<div className={styles.galleryColumn}>
@@ -75,12 +118,30 @@ function GalleryPage1(){
 				<figcaption className={styles.galleryCaption}>Portrait by Amir Geshani</figcaption>
 			
 		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p9.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p10.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p11.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
 	</div>
 	
 	<div className={styles.galleryColumn}>
 		<a href="https://unsplash.com/@frxgui" target="_blank" className={styles.galleryLink}>
 			
-				<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" className={styles.galleryImage}></img>
+				<img src="./p13.jpg" alt="Portrait by Guilian Fremaux" className={styles.galleryImage}></img>
 				<figcaption className={styles.galleryCaption}>Portrait by Guilian Fremaux</figcaption>
 			
 		</a>
@@ -96,6 +157,24 @@ function GalleryPage1(){
 			
 				<img src="./Screenshot6.png" alt="Portrait by Dima DallAcqua" className={styles.galleryImage}></img>
 				<figcaption className={styles.galleryCaption}>Portrait by Dima DallAcqua</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p12.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p13.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
+			
+		</a>
+		<a href="https://unsplash.com/@a2eorigins" target="_blank" className={styles.galleryLink}>
+			
+				<img src="./p4.jpg" alt="Portrait by Alex Perez" className={styles.galleryImage}></img>
+				<figcaption className={styles.galleryCaption}>Portrait by Alex Perez</figcaption>
 			
 		</a>
 	</div>
