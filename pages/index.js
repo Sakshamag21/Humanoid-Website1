@@ -3,11 +3,11 @@ import styles from "../styles/Home.module.css";
 import MenuBar from "../components/menuBar";
 import Banner from "../components/banner";
 import ContactPage from "../components/contactPage";
-import MembersCard from "../components/membersCard";
-import BotSection from "../components/botSection";
-import SoftwareCard from "../components/software";
-import Header from "../components/Header";
-import Ach from "../components/ach";
+// import MembersCard from "../components/membersCard";
+// import BotSection from "../components/botSection";
+// import SoftwareCard from "../components/software";
+// import Header from "../components/Header";
+// import Ach from "../components/ach";
 export default function Home() {
   return (
     <div className={styles.container}>

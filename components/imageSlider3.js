@@ -1,5 +1,5 @@
 import styles from "./imageSlider3.module.css";
-
+// import Image from "next/image";
 function ImageSlider3() {
     return(<>
     <div className={styles.container}>

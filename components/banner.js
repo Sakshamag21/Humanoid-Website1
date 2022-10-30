@@ -19,7 +19,7 @@ export default function Banner(){
                 Kanpur. We are a team of highly motivated, enthusiastic, passionate and
                  dedicated students who work towards the ultimate goal of developing 
                  Humanoid robots. Our team comprises of students from a spectrum of 
-                 different departments and years (i.e. First years to Post Graduates) 
+                 different departments and years i.e. First years to Post Graduates 
                  who are passionate to pursue, explore, learn. We began our venture in 
                  the year 2011, by the collective efforts of a group of students with a 
                  strong urge to complement the theoretical knowledge imparted in 

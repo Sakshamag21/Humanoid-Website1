@@ -1,5 +1,5 @@
 import styles from "./botSection.module.css"
-import tr1 from "../data1.json"
+// import tr1 from "../data1.json"
 
 
 function BotSection(){

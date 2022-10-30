@@ -2,7 +2,7 @@
 [
     {
         "id": 1,
-        "imgh":"./Adarsh_Anand_Y19.jpg",
+        "imgh":"/Adarsh_Anand_Y19.jpg",
         "name": "Adarsh Anand",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "imgh":"./Adit_Khokar_190054.jpg",
+        "imgh":"/Adit_Khokar_190054.jpg",
         "name": "Adit Khokar",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "imgh":"./Aditya_Vats.jpg",
+        "imgh":"/Aditya_Vats.jpg",
         "name": "Aditya Vats",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -26,7 +26,7 @@
     },
     {
         "id": 4,
-        "imgh":"./Ishit_Darania_Y19.jpg",
+        "imgh":"/Ishit_Darania_Y19.jpg",
         "name": "Ishit Darania",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -34,7 +34,7 @@
     },
     {
         "id": 5,
-        "imgh":"./Lochan_Gupta.jpg",
+        "imgh":"/Lochan_Gupta.jpg",
         "name": "Lochan Gupta",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -42,7 +42,7 @@
     },
     {
         "id": 6,
-        "imgh":"./Manit_Ajmera.jpeg",
+        "imgh":"/Manit_Ajmera.jpeg",
         "name": "Manit Ajmera",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -50,7 +50,7 @@
     },
     {
         "id": 7,
-        "imgh":"./Mohit_Kulkarni_y19.jpg",
+        "imgh":"/Mohit_Kulkarni_y19.jpg",
         "name": "Mohit Kulkarni",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -58,7 +58,7 @@
     },
     {
         "id": 8,
-        "imgh":"./Parth_Patil_Y19.PNG",
+        "imgh":"/Parth_Patil_Y19.PNG",
         "name": "Parth Patil",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -66,7 +66,7 @@
     },
     {
         "id": 9,
-        "imgh":"./Prateek_Jain_Y19.jpg",
+        "imgh":"/Prateek_Jain_Y19.jpg",
         "name": "Prateek Jain",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -74,7 +74,7 @@
     },
     {
         "id": 10,
-        "imgh":"./Sahil_Maurya.jpg",
+        "imgh":"/Sahil_Maurya.jpg",
         "name": "Sahil Maurya",
         
         "email": "sakshamag21@iitk.ac.in"
@@ -82,7 +82,7 @@
     },
     {
         "id": 11,
-        "imgh":"./Sai_Ashwith_Dharoor_Y19.jpeg",
+        "imgh":"/Sai_Ashwith_Dharoor_Y19.jpeg",
         "name": "Sai Ashwith Dharoor",
         
         "email": "sakshamag21@iitk.ac.in"

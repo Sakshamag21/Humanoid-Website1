@@ -1,7 +1,7 @@
 import { Fragment } from "react"
 import styles from "./membersCard.module.css"
 import tr4 from "../data.json";
-// import Image from "next/image";
+import Image from "next/image";
 
 function MembersCard(){
     
@@ -14,7 +14,7 @@ function MembersCard(){
     return(
             
             <div className={styles.member} key={record4.id}>
-                <img className={styles.imgh1} src={record4.imgh}></img>
+                <Image className={styles.imgh1} src={record4.imgh} width="156px" height="220px"></Image>
                 <p>{record4.name}</p>
                 <p>{record4.position}</p>
                 <p>{record4.email}</p>

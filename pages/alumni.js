@@ -1,5 +1,5 @@
 import MenuBar from "../components/menuBar";
-import MembersCard from "../components/membersCard";
+// import MembersCard from "../components/membersCard";
 import styles from "./membersPage.module.css";
 import MembersCardHead19 from "../components/membersCrdHead19";
 import MembersCardHead18 from "../components/membersCardHead18";

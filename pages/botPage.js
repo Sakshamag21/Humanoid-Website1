@@ -8,8 +8,8 @@ function BotPage(){
     <div className={style.botCover}>
     <div className={style.botInfo}>
       <div className={style.titleH}>Introduction</div>
-      <p>It is beyond question that a man’s best assistant is another man himself. If ever in near future, there arises a
-           possibility of a machine replacing a man’s role, the chosen
+      <p>It is beyond question that a mans best assistant is another man himself. If ever in near future, there arises a
+           possibility of a machine replacing a mans role, the chosen
            machine has to be made to look as close as to a human
             in appearance and has to be capable of adapting to human
            environment without much modification. With this vision,
@@ -43,7 +43,7 @@ manufactured and integrated with the biped to get the final robot, AUTOMI.</p>
     </div>
     <div className={style.botDesign}>
     <div className={style.titleH}>System Integration</div>
-    <p>1)Control Architecture: While developing AUTOMI, a
+    <p>1Control Architecture: While developing AUTOMI, a
 centralized computing system has been implemented usingOdroid XU4, which has a Linux-based operating system
 (Ubuntu 16.04) as the main computer. It supervises the
 control of actuators at the joints by providing appropriate
@@ -55,11 +55,11 @@ distributed to multiple computers, handled by different team
 members. Once the modules were completed, they were
 loaded onto the main computer and integration was achieved
 using Robot Operating System, abbreviated as ROS .<br></br><br></br>
-2) Sensors and Actuators: Essentially AUTOMI has been
+2 Sensors and Actuators: Essentially AUTOMI has been
 equipped with 3 different sensors to obtain data from the
 surrounding environment. One Inertial measurement unit
 (IMU UM7) is mounted at the Center of Mass, i.e. pelvis
-joint of AUTOMI, to obtain the body’s current orientation,
+joint of AUTOMI, to obtain the bodys current orientation,
 eight pressure sensors (FSR-402) are fixed on each foot and
 one camera (Logitech C270) is placed at the head, to get
 visual data input from the surroundings.
@@ -71,7 +71,7 @@ The method of serial communication between actuators
 and Odroid is TTL serial (transistor-transistor logic), which
 transmit one bit at a time at a specified data rate (i.e. 9600bps,
 115200bps, etc).<br></br><br></br>
-3) Software and Packages: ROS Kinetic Kame, an opensource meta-operating system, primarily targeted at Ubuntu
+3 Software and Packages: ROS Kinetic Kame, an opensource meta-operating system, primarily targeted at Ubuntu
 16.04, was used to integrate the different modules. Integration included receiving information from the sensors, doing
 the computations on them and finally feeding the data to the</p>
   </div></>)
