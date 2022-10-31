@@ -141,7 +141,7 @@ function GalleryPage1(){
 	<div className={styles.galleryColumn}>
 		<a href="https://unsplash.com/@frxgui" target="_blank" className={styles.galleryLink}>
 			
-				<img src="./p13.jpg" alt="Portrait by Guilian Fremaux" className={styles.galleryImage}></img>
+				<img src="./ss.jpg" alt="Portrait by Guilian Fremaux" className={styles.galleryImage}></img>
 				<figcaption className={styles.galleryCaption}>Portrait by Guilian Fremaux</figcaption>
 			
 		</a>
